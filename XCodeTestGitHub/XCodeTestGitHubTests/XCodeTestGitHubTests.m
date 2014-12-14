@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "SomeNewClass.h"
 
 @interface XCodeTestGitHubTests : XCTestCase
 
@@ -35,6 +36,11 @@
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
     }];
+}
+
+-(void) testSomeNewClass {
+    SomeNewClass* someNewClass = [[SomeNewClass alloc] init];
+    XCTAssertNotNil(someNewClass, @"Opps, nil SomeNewClass object");
 }
 
 @end

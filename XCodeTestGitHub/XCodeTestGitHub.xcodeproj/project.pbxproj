@@ -14,6 +14,7 @@
 		69A535511A3E4370006F32C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A535501A3E4370006F32C8 /* Images.xcassets */; };
 		69A535541A3E4370006F32C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A535521A3E4370006F32C8 /* LaunchScreen.xib */; };
 		69A535601A3E4370006F32C8 /* XCodeTestGitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A5355F1A3E4370006F32C8 /* XCodeTestGitHubTests.m */; };
+		69A5356B1A3E4880006F32C8 /* SomeNewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A5356A1A3E4880006F32C8 /* SomeNewClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		69A535591A3E4370006F32C8 /* XCodeTestGitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCodeTestGitHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A5355E1A3E4370006F32C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69A5355F1A3E4370006F32C8 /* XCodeTestGitHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCodeTestGitHubTests.m; sourceTree = "<group>"; };
+		69A535691A3E4880006F32C8 /* SomeNewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeNewClass.h; sourceTree = "<group>"; };
+		69A5356A1A3E4880006F32C8 /* SomeNewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeNewClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				69A535481A3E4370006F32C8 /* AppDelegate.m */,
 				69A5354A1A3E4370006F32C8 /* ViewController.h */,
 				69A5354B1A3E4370006F32C8 /* ViewController.m */,
+				69A535691A3E4880006F32C8 /* SomeNewClass.h */,
+				69A5356A1A3E4880006F32C8 /* SomeNewClass.m */,
 				69A5354D1A3E4370006F32C8 /* Main.storyboard */,
 				69A535501A3E4370006F32C8 /* Images.xcassets */,
 				69A535521A3E4370006F32C8 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69A5354C1A3E4370006F32C8 /* ViewController.m in Sources */,
+				69A5356B1A3E4880006F32C8 /* SomeNewClass.m in Sources */,
 				69A535491A3E4370006F32C8 /* AppDelegate.m in Sources */,
 				69A535461A3E4370006F32C8 /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				69A535651A3E4370006F32C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69A535661A3E4370006F32C8 /* Build configuration list for PBXNativeTarget "XCodeTestGitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				69A535681A3E4370006F32C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
